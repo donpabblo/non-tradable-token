@@ -1,0 +1,24 @@
+{
+  "name": "ntt",
+  "version": "1.0.0",
+  "description": "Non Tradable Token",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "npx hardhat test"
+  },
+  "author": "Paolo Servillo",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.1.1",
+    "@openzeppelin/contracts": "^4.7.3",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "hardhat": "^2.10.2"
+  },
+  "dependencies": {
+    "ethers": "^5.7.0",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3"
+  }
+}
